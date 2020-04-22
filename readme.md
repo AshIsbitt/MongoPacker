@@ -1,4 +1,4 @@
-#MongoDB Packer :mango:
+# MongoDB Packer :mango:
 
 ## Prerequisites
 
@@ -7,7 +7,8 @@
 - Chef
 - Vagrant
 
-## What is Packer?
+
+## What is Packer?
 
 **Packer** is a FOSS (*Free Open Source Software*) tool maintained by the community to be used to create programmed images of machines. This works through a single JSON (Javascript Object Notation) file that tells Packer how to configure itself. The primary purpose of a Packer file is to interact with a cloud service such as **Microsoft Azure**, or **Amazon Web Services**, so that a network engineer or DevOps can create a large number of systems all with the same tools and software installed, mitigating a major cause of "It works on my machine".
 
@@ -15,7 +16,7 @@ A Machine Image is a static, pre-configured operating system, with all the tools
 
 ## Installation and running
 
-To download this repo, please run: `LOREM IPSUM`
+To download this repo, please run: `git clone git@github.com:AshIsbitt/MongoPacker.git`
 
 Note that to continue, you may need to edit lines 10, 12 and 13 of `packer.json` to your local SSH key and AWS Subnet. 
 
